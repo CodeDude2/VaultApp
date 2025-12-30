@@ -2,7 +2,7 @@
 
 using Avalonia.Controls;
 
-public partial class CreateAccount : Window
+public partial class CreateAccount : UserControl
 {
     public CreateAccount()
     {

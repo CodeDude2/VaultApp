@@ -2,7 +2,7 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Vault.Views;
 
-namespace Vault;
+namespace Vault.Views;
 
 public partial class MainWindow : Window
 {
@@ -15,7 +15,5 @@ public partial class MainWindow : Window
     {
         this.Content = new CreateAccount();
         
-
-        //throw new System.NotImplementedException();
     }
 }

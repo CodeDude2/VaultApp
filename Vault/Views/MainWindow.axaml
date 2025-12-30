@@ -3,13 +3,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="Vault.MainWindow"
+        x:Class="Vault.Views.MainWindow"
         Title="Vault">
     
     
     <StackPanel>
         <Button Content="Create Account" Click="CreateAccount"/>
-        
-        
+        <ContentControl Name="MainContent" />
     </StackPanel>
 </Window>
