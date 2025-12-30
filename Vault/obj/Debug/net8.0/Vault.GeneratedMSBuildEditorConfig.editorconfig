@@ -26,3 +26,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/jason/RiderProjects/VaultApp/Vault/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/jason/RiderProjects/VaultApp/Vault/Views/CreateAccount.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
