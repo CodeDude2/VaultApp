@@ -8,6 +8,8 @@
     
     
     <StackPanel>
+        <Button Content="Login" Click="Login"/>
+        <Button Content="Forget Password" Click="ForgetPassword"/>
         <Button Content="Create Account" Click="CreateAccount"/>
         <ContentControl Name="MainContent" />
     </StackPanel>

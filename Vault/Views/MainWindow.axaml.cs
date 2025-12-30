@@ -14,6 +14,15 @@ public partial class MainWindow : Window
     private void CreateAccount(object? sender, RoutedEventArgs e)
     {
         this.Content = new CreateAccount();
+    }
+
+    private void Login(object? sender, RoutedEventArgs e)
+    {
+        
+    }
+
+    private void ForgetPassword(object? sender, RoutedEventArgs e)
+    {
         
     }
 }
