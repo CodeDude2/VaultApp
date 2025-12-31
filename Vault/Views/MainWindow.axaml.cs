@@ -18,7 +18,7 @@ public partial class MainWindow : Window
 
     private void Login(object? sender, RoutedEventArgs e)
     {
-        
+        this.Content = new Login();
     }
 
     private void ForgetPassword(object? sender, RoutedEventArgs e)
