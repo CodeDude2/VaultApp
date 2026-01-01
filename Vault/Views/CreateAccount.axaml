@@ -1,12 +1,13 @@
 ﻿<UserControl
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    x:Class="Vault.Views.CreateAccount"
-    Width="300"
-    Height="150">
+    x:Class="Vault.Views.CreateAccount">
 
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <TextBlock Text="Hello from the second window!" />
+    <StackPanel>
+        <TextBlock Text="Create Account Page" />
+        <TextBox Watermark="Username" />
+        <TextBox Watermark="Password" />
+        <Button Content="Submit" />
     </StackPanel>
 
 </UserControl>

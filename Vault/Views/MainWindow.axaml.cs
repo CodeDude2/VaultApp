@@ -23,6 +23,6 @@ public partial class MainWindow : Window
 
     private void ForgetPassword(object? sender, RoutedEventArgs e)
     {
-        
+        this.Content = new ForgotPassword();
     }
 }
