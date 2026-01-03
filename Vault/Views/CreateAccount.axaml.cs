@@ -1,5 +1,6 @@
 ﻿using System;
 using Avalonia.Interactivity;
+using Vault.ViewModel;
 
 namespace Vault.Views;
 
@@ -12,11 +13,15 @@ public partial class CreateAccount : UserControl
         InitializeComponent();
     }
 
-    private void SubmitInfo(object? sender, RoutedEventArgs e)
+    public void SubmitInfo(object? sender, RoutedEventArgs e)
     {
+        string firstName = FirstName.Text ?? "";
+        string lastName = LastName.Text ?? "";
         string username = Username.Text ?? "";
         string password = Password.Text ?? "";
         
+        Account newAccount = new Account(username, password, firstName, lastName);
     }
     
+
 }

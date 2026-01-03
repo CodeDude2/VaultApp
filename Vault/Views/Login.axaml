@@ -5,8 +5,11 @@
     Width="300"
     Height="150">
 
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <TextBlock Text="Hello from the login window!" />
+    <StackPanel>
+        <TextBlock Text="Create Account Page" />
+        <TextBox x:Name="Username" Watermark="Username" />
+        <TextBox x:Name="Password" Watermark="Password" />
+        <Button Content="Submit" Click="SubmitInfo" />
     </StackPanel>
 
 </UserControl>

@@ -5,6 +5,8 @@
 
     <StackPanel>
         <TextBlock Text="Create Account Page" />
+        <TextBox x:Name="FirstName" Watermark="First Name"/>
+        <TextBox x:Name="LastName" Watermark="Last Name" />
         <TextBox x:Name="Username" Watermark="Username" />
         <TextBox x:Name="Password" Watermark="Password" />
         <Button Content="Submit" Click="SubmitInfo" />
