@@ -5,9 +5,9 @@
 
     <StackPanel>
         <TextBlock Text="Create Account Page" />
-        <TextBox Watermark="Username" />
-        <TextBox Watermark="Password" />
-        <Button Content="Submit" />
+        <TextBox x:Name="Username" Watermark="Username" />
+        <TextBox x:Name="Password" Watermark="Password" />
+        <Button Content="Submit" Click="SubmitInfo" />
     </StackPanel>
 
 </UserControl>
